@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://kit.fontawesome.com/eff0840f59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img height="100px" width="100px" src="logo_transparent.png" class="logo" alt=""></a>
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+            <button id="searchButton" class="search-button">Search</button>
+        </div>
+        <div class="nav">
+            <ul>
+                <li style="--bg-color: #a9c700; ">
+                    <span class="material-symbols-outlined">Home</span>
+                    <span class="text"><a class="none" href="index.html">Home</a></span>
+                </li>
+                <li style="--bg-color: #E9724C;">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                    <span class="text"><a class="none" href="Shop.html">Shop</a></span>
+                </li>
+                <li style="--bg-color: #C5283D;">
+                    <span class="material-symbols-outlined">quiz</span>
+                    <span class="text"><a class="none" href="about.html">About us</a></span>
+                </li>
+                <li style="--bg-color: #54bcce;">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <span class="text"><a class="none" href="contact.html">Profile</a></span>
+                </li>
+                <li style="--bg-color: #5654ce;">
+                    <span class="material-symbols-outlined">shopping_cart_checkout</span>
+                    <span class="text"><a class="none" href="contact.html">Cart</a></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="prodetails">
+        <div class="single-pro-image">
+            <img src="rhubarb-hoodie-aw30-9.jpg" width="100%" id="MainImg" alt="" >
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="rhubarb-hoodie-aw30-9.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="black-hoodie-aw30-16.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="cream-melange-hoodie-aw30-9.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="navy-blazer-hoodie-aw30-9.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+       <div class="single-pro-details">
+        <h6>Home / Hoodie</h6>
+        <h4>Women's Super Combed Cotton French Terry Fabric Hoodie Jacket with Side Pockets - Wine Tasting</h4>
+        <h2>₹1,899</h2>
+        <select >
+            <option selected disabled>Select Size</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+        </select>
+        <input type="number" value="1">
+        <button>Add To Cart</button>
+        <h4>Product Details</h4>
+        <span>Made from super-combed cotton French Terry fabric, this jacket ensures a soft and luxurious feel against your skin. The fabric is not only cozy but also durable, promising long-lasting wear and easy care.The hoodie design adds a trendy and casual touch, providing warmth and a laid-back vibe. The jacket features a full zip for easy wear and removal, while the high neck adds an extra layer of protection against chilly weather. The wine tasting color brings a touch of sophistication to your look.</span> <br><br>
+        <span> <h3><strong>Product features</strong></h3><br>
+            
+            <span>Super Combed Cotton French Terry Fabric <br>
+                Fabric Composition : Cotton <br>
+                Relaxed Fit  <br>
+                Hooded Neck with Drawstring <br>
+                Kangaroo Pocket in Front for Utility <br>
+                Ribbed Cuff Hem <br>
+                Full Zip Closure <br>
+                Label Free for All Day Comfort</span> <br>
+       </div>
+    </section>
+    <section id="product-container">
+        <h2>Featured Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="t-shitr4.avif" alt="Image Description">
+                <div class="product-description">
+                    <span>ADIDAS</span>
+                    <h5>ADICOLOR CLASSICS 3-STRIPES TEE</h5>
+                    <div class="star">
+                        <!-- full star -->
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <!-- half star -->
+                        <span class="material-symbols-outlined">star_half</span>
+                        <!-- empty star -->
+                        <span class="material-symbols-outlined" id="empty_star">grade</span>
+                    </div>
+                    <div class="price">
+                        <h5><del>₹2,499</del></h5>
+                        <h4>₹1,499</h4>
+                    </div>
+                    <a href="#"> <span class="material-symbols-outlined product-cart">add_shopping_cart</span></a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="h&m2.jpg" alt="Image Description">
+                <div class="product-description">
+                    <span>H&M</span>
+                    <h5>OVERSIZED FIT BASEBALL JACKET</h5>
+                    <div class="star">
+                        <!-- full star -->
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <!-- half star -->
+                        <span class="material-symbols-outlined">star_half</span>
+                        <!-- empty star -->
+                        <span class="material-symbols-outlined" id="empty_star">grade</span>
+                    </div>
+                    <div class="price">
+                        <h5><del>₹3,999</del></h5>
+                        <h4>₹2,499</h4>
+                    </div>
+                    <a href="#"> <span class="material-symbols-outlined product-cart">add_shopping_cart</span></a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="jockey.jpg" alt="Image Description">
+                <div class="product-description">
+                    <span>JOCKEY</span>
+                    <h5>WOMEN'S COTTON HALF SLEEVE T-Shirt </h5>
+                    <div class="star">
+                        <!-- full star -->
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <!-- half star -->
+                        <span class="material-symbols-outlined">star_half</span>
+                    </div>
+                    <div class="price">
+                        <h5><del>₹999</del></h5>
+                        <h4>₹599</h4>
+                    </div>
+                    <a href="#"> <span class="material-symbols-outlined product-cart">add_shopping_cart</span></a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="t-shitr3.avif" alt="Image Description">
+                <div class="product-description">
+                    <span>ADIDAS</span>
+                    <h5>ESSENTIALS STRETCH TRAINING TEE</h5>
+                    <div class="star">
+                        <!-- full star -->
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <span class="material-symbols-outlined">star</span>
+                        <!-- empty star -->
+                        <span class="material-symbols-outlined" id="empty_star">grade</span>
+                    </div>
+                    <div class="price">
+                        <h5><del>₹1,999</del></h5>
+                        <h4>₹1,499</h4>
+                    </div>
+                    <a href="#"> <span class="material-symbols-outlined product-cart">add_shopping_cart</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer" id="col">
+            <div class="col" id="col-1">
+                <h4 style="text-align: center;">CONTACT</h4>
+                <p><strong>Address:</strong> ShopStar Private Limited, DLF Building,Sansad Marg, Connaught Place,New
+                    Delhi,Delhi-110001 </p>
+                <p><strong>Phone:</strong> +91-8826275424 /011-2240055 </p>
+                <p><strong>Mail:</strong> ShopStar106@gmail.com</p>
+                <h4>Follow Us</h4>
+                <div class="social-media">
+                    <a href="http://www.instagram.com"> <i class="fa-brands fa-instagram fa-lg"
+                            style="color: #ffffff;"></i></a>
+                    <a href="http://www.facebook.com"><i class="fa-brands fa-square-facebook fa-lg"
+                            style="color: #ffffff;"></i></a>
+                    <a href="http://www.google.com"><i class="fa-brands fa-google fa-lg"
+                            style="color: #ffffff;"></i></a>
+                    <a href="http://www.x.com"><i class="fa-brands fa-x-twitter fa-lg" style="color: #ffffff;"></i></a>
+                </div>
+
+            </div>
+            <div class="col" id="col-2">
+                <h4 style="text-align: center;">POLICY</h4>
+                <p>Orders</p>
+                <p>Payments</p>
+                <p>Terms & Condition</p>
+                <p>Security</p>
+                <p>Privacy</p>
+            </div>
+            <div class="col" id="col-3">
+                <h4 style="text-align: center;">ABOUT</h4>
+                <p>About Us</p>
+                <p>FAQ</p>
+                <p>Careers</p>
+                <p>Information</p>
+            </div>
+            <div class="col" id="col-4">
+                <h4 style="text-align: center;">YOUR ACCOUNT</h4>
+                <p>Orders</p>
+                <p>View Cart</p>
+                <p>Returns/Cancellation</p>
+                <p>Payments</p>
+                <p>Address</p>
+                <p>Details</p>
+            </div>
+            <div class="col" id="col-4">
+                <h4 style="text-align: center;">HELP</h4>
+                <p>Shipping</p>
+                <p>Report</p>
+                <p>Shipping</p>
+                <p>Payments</p>
+            </div>
+        </div>
+        <div class="footer-end">
+            <br>
+            <hr><br>
+            <h6>Copyright &copy; 2023 ShopStar.com</h6>
+            <br>
+        </div>
+
+    </footer>
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+    <hr>
+</body>
+
+</html>
